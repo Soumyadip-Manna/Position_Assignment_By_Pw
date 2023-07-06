@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        body{
+            text-align: center;
+            position: relative;
+        }
+        .cart{
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            position: absolute;
+            border-radius: 5px;
+            margin: 10px 30px;
+            padding: 10px 20px;
+        }
+        img{
+            width: 150px;
+            height: 200px;
+        }
+      .cart1{
+        margin-top: 40px;
+        margin-left: 50px;
+        background-color: #1b98f5;
+      }
+      .cart2{
+        position: absolute;
+        left: 100px;
+        top: 150px;
+        background-color: #1faa59;
+      }
+      .cart3{
+        position: absolute;
+        left: 150px;
+        top: 250px;
+        background-color: #f7cd2e;
+      }
+      .cart:hover{
+        z-index: 2;
+      }
+     </style>
+</head>
+<body>
+    <h2>Hover to unveil the pokemon</h2>
+    <div class="cart cart1">
+        <h3>Cart_1</h3>
+        <img src="./Assests/pokemon1.png" alt="pokemon 1">
+    </div>
+    <div class="cart cart2">
+        <h3>Cart_2</h3>
+        <img src="./Assests/pokemon2.png" alt="pokemon 2">
+    </div>
+    <div class="cart cart3">
+        <h3>cart_3</h3>
+        <img src="./Assests/pokemon1.png" alt="pokemon png">
+    </div>
+</body>
+</html>
